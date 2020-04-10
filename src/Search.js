@@ -17,12 +17,26 @@ class Search extends Component {
         if (query !== '') {
             BooksApi.search(query).then((books) => {
                 if (!books.error) {
-                    console.log(books)
-                    this.setState(() => ({
-                        books: books
-                    }))
+                    BooksApi.getAll().then((personalBooks) => {
+                        books.map((book) => {
+                            personalBooks.map((personalBook) => {
+                                if (book.id === personalBook.id) {
+                                    book.shelf = personalBook.shelf
+                                }
+                                return personalBook;
+                            })
+                            return book;
+                        })
+                        this.setState(() => ({
+                            books: books
+                        }))
+                    })
                 }
             })
+        } else {
+            this.setState(() => ({
+                books: []   
+            }))
         }
     }
     updateBook = ((book, shelf) => {
