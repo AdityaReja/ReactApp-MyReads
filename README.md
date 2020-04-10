@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Introduction: 
+This is a Book management application, giving you the facilities of viewing the books you are currently reading, want to read and have already read. It also lets you search though a huge online library portal to add into your personal shelfs. The application consists of two pages: 
 
-## Available Scripts
+### MyReads(Home page) :
 
-In the project directory, you can run:
+This page consists of three shelfs for you to categorize your books in:
 
-### `yarn start`
+1. Currently Reading: Behold that book. This shelf has books that you are currently devouring. 
+2. Want to Read: This is for the bibliophile in you. It lets you see the books you are excited to read your leisure time.
+3. Read: Be proud of your achievement. This shelf lets you see the books you have already finished.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Search:
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+This page lets you search books from a huge stack of library and add books to various shelfs in the MyReads page. 
 
-### `yarn test`
+Go ahead and give your hands another beautiful book to hold. Although you might have to run few commands to make the application functional. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. npm install:
 
-### `yarn build`
+After cloning the project, run npm install to install all the packages required for the application 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. npm start:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+To start your application and experience a hustle free library experience, run npm start and access your application on "localhost:3000"
